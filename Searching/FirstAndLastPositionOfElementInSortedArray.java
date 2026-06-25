@@ -16,8 +16,6 @@ class Solution {
         ans[0]= Search(nums,target,true);
         if(ans[0] != -1)
         ans[1]= Search(nums,target,false);
-
-
         return ans;
     }
     int Search(int[] arr, int target ,boolean findStartIndex){
