@@ -28,6 +28,6 @@ class Solution {
                 start = mid +1;
             }
         }
-         return letters[start];
+        return letters[start];
     }
 }
